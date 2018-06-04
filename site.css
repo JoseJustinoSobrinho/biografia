@@ -1,0 +1,37 @@
+@font-face{
+   font-family: 'Anton';
+   src: url(fonts/Anton/Anton-Regular.ttf);
+  }
+
+
+#paragrafo1{
+  font-size: 24px;
+}
+
+.fundo{
+  background-color: pink;
+  color: green;
+  text-align: left;
+}
+
+.borda-azul {
+  border: 1px solid;
+  border-color: blue;
+}
+
+body{
+   font-family: 'Anton', sans-serif;
+}
+
+
+ul{
+  list-style-type: lower-alpha;
+}
+
+#foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 50%;
+}
