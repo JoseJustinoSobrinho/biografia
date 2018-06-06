@@ -2,18 +2,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Formulário</title>
+	<title>Eleições 2018</title>
 	<link rel="icon"  href="../biografia/imagens/icone.jfif">
 </head>
 <body>
 		  <!-- <form method="action" > -->
 	<form method="post" action="" enctype="multpart/form-data">
+	    <label for="identifica">IDENTIFIQUE-SE</label>	
+	    <br> <br> <br>
 		<label for="nome">Nome:</label>		
     	<input type="text" id="nome" name="nome" required>
    	    <br><br>
 
    	    <label for="login">login:</label>		
-    	<input type="text" id="login" name="login" autocomplete="off" required autofocus="" size="8">
+    	<input type="text" id="login" name="login" autocomplete="off" autofocus="" maxlength="8">
    	    <br><br>
 
     	<label for="senha">Senha:</label>
@@ -30,10 +32,6 @@
 
     	<label for="idade">Idade:</label>
     	<input type="number" id="idade" name="idade" value="16" min="16" max="35" step="2">
-    	<br><br>
-
-    	<label for="nota">Nota para página:</label>
-    	<input type="range" id="nota" name="nota" value="0" min="0" max="10">
     	<br><br>
 
     	<label for="email">E-mail:</label>
@@ -59,40 +57,65 @@
       	<br><br>  
 
         <fieldset>
-        	<legend>Áreas de interesse</legend>
+        	<legend>Você poderá estar escolhendo mais de um dos temas abaixo</legend>
         	<label>
-              	<input type="checkbox" name="esportes" value="esportes" checked="">
-        	Esportes
+              	<input type="checkbox" name="saude" value="saude" checked="">
+        	Saúde
         </label>
         <label>
-              	<input type="checkbox" name="cinema" value="cinema">
-        	Cinema
+              	<input type="checkbox" name="seguranca" value="seguranca">
+        	
+        	Segurança
         </label>
         <label>
-              	<input type="checkbox" name="viagens" value="viagens">
-        	Viagens
+              	<input type="checkbox" name="educacao" value="educacao">
+        	Educação
         </label>
         <label>
-              	<input type="checkbox" name="comida" value="comida">
-        	Comidas
+              	<input type="checkbox" name="lazer" value="lazer">
+        	Lazer
         </label>
         </fieldset>
-
         <br><br>
 
         <fieldset>
-        	<legend>Sexo:</legend>
+        	<legend>Escolha uma categoria:</legend>
         	<label>
-        		<input type="radio" name="sexo" value="masculino" checked="">
-        		Masculino
+        		<input type="radio" name="tema" value="lider" checked="">
+        		líder
         	</label>
+        	<br>
         	<label>
-        	    <input type="radio" name="sexo" value="feminino">
-        	    Feminino		
+        	    <input type="radio" name="tema" value="vice-lider">
+        	    vice-líder		
         	</label>
-
+        	<br>
+        	<label>
+        		<input type="radio" name="tema" value="secretario" >
+        		secretário
+        	</label>
+        	<br>
+        	<label>
+        		<input type="radio" name="tema" value="humorista" >
+        		humorista
+        	</label>
+        	<br>
+        	<label>
+        		<input type="radio" name="tema" value="estiloso">
+        		estiloso
+        	</label>
+        	<br>
+        	<label>
+        		<input type="radio" name="tema" value="timido" >
+        		tímido
+        	</label>
+        	<br>
         </fieldset>
-        <br><br>
+        <br>
+
+        <label for="nota">Qual a nota para o tema de você escolheu:</label>
+    	<input type="range" id="nota" name="nota" value="0" min="0" max="10">
+    	<br><br>
 
         <label for="descricao">Descrição:</label>
         <br>
