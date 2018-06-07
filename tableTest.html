@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Table Teste</title>
+     <style type="text/css">
+		
+	 #primeiro{
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: left; width: 100px; height: 40px;
+	}
+
+
+		#linha1{
+            background-color: rgb(79,129,189); 
+            color: rgb(255, 255, 255);
+			}
+		#linha2{
+			background-color: rgb(208,216,232); 
+
+		}
+		#tabela{
+			font-family: 'calibri', serif;
+			font-size: 12pt;
+		}
+		#coluna2{
+			width: 90px;
+		}
+		#um{
+			border: 1px solid black;
+            border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+	<table id="primeiro">
+			<tr>
+				<td >A</td>
+				<td >B</td>
+			</tr>
+			<tr>
+				<td >C</td>
+				<td >D</td>
+			</tr>
+			<tr>
+				<td >E</td>
+				<td >F</td>
+			</tr>
+	</table>
+    <br><br>
+
+	<table >
+
+			<tr>
+				<td class="segundo" class="outro">A</td>
+				<td class="segundo">B</td>
+				<td class="segundo">C</td>
+				<td class="segundo">D</td>
+			</tr>
+			<tr>
+				<td class="segundo">E</td>
+				<td class="segundo">F</td>
+				<td class="segundo">G</td>
+				<td class="segundo">H</td>
+			</tr>
+			</table>
+      <br><br>
+
+		<table id="tabela">
+		     <tr id="linha1">
+				<th >Nº</th>
+				<th id="coluna2">Nome</th>
+			</tr>
+			<tr id="linha2">
+				<td style="text-align: center;">1<br>2<br>3</td>
+				<td>Zé<br>Toin<br>Chico</td>
+			</tr>
+	    </table>
+
+     <br><br>
+
+	    <table id="um">
+		     <tr>
+				<td id="um">A</td>
+				<td id="um">D</td>
+				<td id="um">G</td>
+			</tr>
+			<tr>
+				<td id="um">B</td>
+				<td id="um">E</td>
+				<td id="um">H</td>
+			</tr>
+			<tr>
+				<td id="um">C</td>
+				<td id="um">F</td>
+				<td id="um">I</td>
+			</tr>
+	    </table>
+     <br><br>
+	    <table id="um">
+		     <tr>
+				<td id="um" colspan="3" >A</td>
+			</tr>
+			<tr>
+				<td id="um">B</td>
+				<td id="um">C</td>
+				<td id="um">D</td>
+			</tr>
+			<tr>
+				<td id="um">E</td>
+				<td id="um">F</td>
+				<td id="um">G</td>
+			</tr>
+	    </table>
+	    <br><br>
+	    <table id="um">
+		     <tr >
+				<td id="um">A</td>
+				<td id="um">B</td>
+				<td id="um">C</td>
+			</tr>
+			<tr>
+				<td id="um">D</td>
+				<td id="um">E</td>
+			</tr>
+			<tr colspan="3">
+				<td id="um">F</td>
+				<td id="um">G</td>
+			</tr>
+	    </table>
+</body>
+</html>
