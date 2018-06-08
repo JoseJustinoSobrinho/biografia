@@ -98,12 +98,12 @@
 
 		<table id="tabela">
 		     <tr id="linha1">
-				<th >NÂº</th>
+				<th >Nº</th>
 				<th id="coluna2">Nome</th>
 			</tr>
 			<tr id="linha2">
 				<td style="text-align: center;">1<br>2<br>3</td>
-				<td>ZÃ©<br>Toin<br>Chico</td>
+				<td>Zé<br>Toin<br>Chico</td>
 			</tr>
 	    </table>
 
@@ -212,18 +212,18 @@
 				
 			</tr>
 			<tr id="linha4">
-				<td id="um">InÃ­cio: 1990</td>
+				<td id="um">Início: 1990</td>
 			</tr>
 			<tr id="linha3">
-				<td id="um">tam e gol</td>		
+				<td id="um">tam</td>		
 			</tr>
 			<tr id="linha4">
-				<td id="um" rowspan="3" >Natal-SÃ£o Paulo</td>
+				<td id="um" rowspan="3" >Natal-São Paulo</td>
 				<td id="um">5 vezes ao dia</td>
 				
 			</tr>
 			<tr id="linha3">
-				<td id="um">InÃ­cio: 1981</td>
+				<td id="um">Início: 1981</td>
 			</tr>
 			<tr id="linha4">
 				<td id="um">Bol</td>		
@@ -234,7 +234,7 @@
 				
 			</tr>
 			<tr id="linha4">
-				<td id="um">InÃ­cio: 2003</td>
+				<td id="um">Início: 2003</td>
 			</tr>
 			<tr id="linha3">
 				<td id="um">Avianca</td>		
