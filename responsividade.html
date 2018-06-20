@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/css/responsividade.css">
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            
+        </div>
+
+        <div id="menu-inferior">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                      
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="imagens/foto1.jpg" alt="Los Angeles">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagens/foto2.jpg" alt="Chicago">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagens/foto3.jpg" alt="New York">
+                          </div>
+                        </div>
+                      
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      
+                      </div>
+            </div>
+        <div id="corpo">
+            <div id="conteudo">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="form-group form-check">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">SUBMETER</button>
+                      </form>
+            </div>
+            <div id="feeds"></div>
+        </div>
+        <div id="rodape"></div>
+    </div>
+</body>
+</html>
